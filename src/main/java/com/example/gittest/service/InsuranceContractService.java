@@ -11,6 +11,7 @@ public class InsuranceContractService {
         System.out.println("test");
         PersonService personService = new PersonService();
         final Person person = personService.findPersonById(personId);
+        System.out.println("test2");
         return  new InsuranceContract();
     }
 }
