@@ -8,6 +8,7 @@ public class InsuranceContractService {
     PersonService personService;
 
     public com.example.gittest.entity.InsuranceContract createContract(Long personId){
+        System.out.println("test");
         PersonService personService = new PersonService();
         final Person person = personService.findPersonById(personId);
         return  new InsuranceContract();
