@@ -8,4 +8,8 @@ public class PersonService {
         System.out.println("new person added.");
         return true;
     }
+
+    public Person findPersonById(Long id){
+        return new Person();
+    }
 }
